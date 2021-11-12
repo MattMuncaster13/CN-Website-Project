@@ -56,6 +56,9 @@ title{
 .para2{
     font-size: 25px;
 }
+.steve_rogers{
+    font-size: 20px;
+}
 .naslund{
     font-size: 20px;
 }
@@ -69,9 +72,6 @@ title{
     font-size: 20px;
 }
 .wilson{
-    font-size: 20px;
-}
-.barnes{
     font-size: 20px;
 }
 .nav{
@@ -124,6 +124,9 @@ title{
 .cap_returns{
     width: 20%;
     height: 40%;
+}
+.page3header{
+    font-size: 50px;
 }
 .john_walker{
     width: 20%;
