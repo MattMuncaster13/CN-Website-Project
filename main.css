@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+body {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.button {
+    background-color: grey;
+    border: maroon;
+    color: blue;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: row;
+    font-size: 16px;
+    margin: 6px 3px;
+    cursor: pointer;
+}
+/* External style sheet */
+
+/* Background colour changes the background colour of the page
+h1 will change the colour of the text that is in the h1 statement on the index.HTML file
+p will change the paragraph characters stated in the <p> statement on the index.HTML file*/
+
+body{
+    background-image: url("/images/shield_2.jpg");
+}
+
+
+/* TO ASSIGN AN IMAGE AS THE PAGE BACKGROUND */
+
+/* body{
+    background-image: url(/"filename.jpeg"); }*/
+
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.comic_cap{
+    width: 225px;
+    height: 225px;
+}
+
+title{
+    width: 50%;
+    height: 50%;
+}
+
+.para{
+    font-size: 150%;
+}
+
+.question{
+    font-size: 200%;
+}
+.para2{
+    font-size: 25px;
+}
+.naslund{
+    font-size: 20px;
+}
+.mace{
+    font-size: 20px;
+}
+.burnside{
+    font-size: 20px;
+}
+.walker{
+    font-size: 20px;
+}
+.wilson{
+    font-size: 20px;
+}
+.barnes{
+    font-size: 20px;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.return_home{
+    width: 65% ;
+    height: 35%;
+}
+
+.page2header{
+    font-size: 50px;
+}
+.name{
+    font-size: 35px;
+}
+.issue1{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 20%;
+    height: 40%;
+}
+.spirit_pic{
+    width: 19%;
+}
+.issue49{
+    width: 20%;
+    height: 40%;
+}
+.issue58{
+    width: 20%;
+    height: 40%;
+}
+.patriot{
+    width: 20%;
+    height: 40%;
+}
+.burns{
+    width: 20%;
+    height: 40%;
+}
+.grand{
+    width: 20%;
+    height: 40%;
+}
+.cap_returns{
+    width: 20%;
+    height: 40%;
+}
+.john_walker{
+    width: 20%;
+    height: 40%;
+}
+.evans{
+    width: 30%;
+    height: 15%;
+}
+.first_avenger{
+    width: 20%;
+    height: 40%;
+}
+.old_cap{
+    width: 30%;
+    height: 15%;
+}
+.wyatt{
+    width: 30%;
+    height: 15%;
+}
+.cap_walker{
+    width: 30%;
+    height: 15%;
+}
+.mackie{
+    width: 20%;
+    height: 40%;
+}
+.sam_cap{
+    width: 30%;
+    height: 15%;
+}
+
+/* USING GOOGLE FONTS IS VERY BENEFICIAL WITH A MULTITUDE OF DIFFERENT TYPES OF FONTS. WHEN YOU FIND THE FONT YOU WANT TO USE, CLICK Embed AND THEN CLICK Import TO THEN BE ABLE TO COPY THE IMPORT URL */
+
+/* TO USE ONE OF THE FONTS, YOU NEED TO IMPORT THE FONT URL BY USING
+@import url(''); AT THE VERY TOP OF THE CSS DOCUMENT!! 
+TO THEN BE ABLE TO ASSIGN THAT FONT, YOU WILL HAVE TO USE
+font-family: 'Font name'; AND THEN SPECIFY WHERE YOU WANT THAT FONT TO BE ACTIVE */
+
